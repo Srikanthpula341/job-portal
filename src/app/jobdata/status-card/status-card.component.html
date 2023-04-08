@@ -1,0 +1,19 @@
+<div style="height: 500px; overflow: auto;">
+    <ng-container *ngFor="let job of jobList">
+      <div class="border">
+          <!-- export interface Job {
+              id: string;
+              title: string;
+              companyName: string;
+              location: string;
+              tag: string;
+              createdAt: string;
+            } -->
+  
+            <h4 class="job-title"> {{job.title}}</h4>
+            <h5 class="job-company">{{job.companyName}}</h5>
+            {{job.location}}
+      </div>
+    </ng-container>
+  </div>
+  

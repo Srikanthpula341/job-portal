@@ -1,0 +1,33 @@
+<div class="container container-home" style="box-sizing: border-box; border: 1px solid black;">
+  
+    <div class="container-fluid container-main" style="overflow: auto;">
+      <!-- <div class="scroll-container" #scrollContainer style="white-space: nowrap; overflow-x: scroll;">
+        <div class="card-container mt-4" #cardContainer>
+          <div class="card" *ngFor="let card of cards; index as i; trackBy: trackById"
+            [ngStyle]="{'background': backgrounds[card.id]}"
+            >
+         
+            <h2>Card {{i + 1}}</h2>
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+         ng
+          </div>
+        </div>
+
+      </div> -->
+      <mat-form-field class="table-contact" appearance="legacy">
+        <mat-label for="companyName">Business Name</mat-label>
+        <input
+          matInput
+          id="businessName"
+          formControlName="businessName"
+        />
+      </mat-form-field>
+      
+     
+ 
+    </div>
+  </div>
+
+
+  

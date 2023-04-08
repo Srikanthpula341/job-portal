@@ -1,0 +1,78 @@
+.container-home{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 80vh;
+    width: 70%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: calc(100% * 4); /* set the width of the card container to be 4 times the width of the card */
+    margin-bottom: -17px; /* remove the margin at the bottom */
+  }
+  
+  
+  .card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% / 2 - 10px); /* divide the width of the card container by 6 and subtract the margin-right value */
+    height: 150px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .card .image {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* hide the scrollbar in WebKit-based browsers */
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    //height: 200px;
+    width: calc(100% * 4); /* set the width of the card container to be 4 times the width of the card */
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: -17px; /* remove the margin at the bottom */
+  }
+  
+  /* hide the scrollbar in WebKit-based browsers */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* hide the scrollbar in Microsoft Edge */
+  .card-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* hide the scrollbar in Firefox */
+  ::-moz-scrollbar {
+    display: none;
+  }
+
+  .image{
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+  }
